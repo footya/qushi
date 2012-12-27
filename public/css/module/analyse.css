@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* analyse */
+.analyse_tit { margin-bottom: 20px; font-size: 16px; color: #333; font-weight: bold; }
+.dis_line { margin: 0 5px 0 5px; }
+/*产品分析*/
+.product { margin-bottom: 40px; padding: 4px; width: 970px; background: #fff; border: solid 1px #ccc; border-radius: 3px; box-shadow: 0px 2px 2px #ccc; }
+.product .pannel { padding: 15px 0 15px 0; background: #ededed; }
+.product .product_list { margin:0 0 12px 35px; font-size: 14px; font-weight: bold; }
+.product .product_list li { display: inline-block; margin-right:-8px; width: 100px; height: 24px; text-align: center; line-height:24px; }
+.product .product_list li a { color: #333; }
+.product .product_list li a:hover { color: #0577c4; text-decoration: none; }
+.product .product_list li.current { width:98px; height: 24px; background:url(../../images/bg_fill.jpg) #dedede 0 -60px;; color: #666; border: solid 1px #bdbdbd; border-radius: 3px; text-shadow:0 1px 1px #fff; }
+.product .product_list li.current a:hover{ color:#333;}
+.product .item_list { margin: 30px 0 0 35px; }
+.product .item_list li { display: inline; float: left; margin: 0 30px 30px 0; }
+.product_box { position: relative; padding: 4px; width: 270px; height: 170px; background: #fff; border: solid 1px #ccc; border-radius: 3px; box-shadow: 0 2px 2px #ccc; }
+.product_box .p_img { width: 270px; height: 145px; }
+.product_box .p_a { position: absolute; display: block; width: 270px; height: 145px; background: rgba(0,116,195,0.2); background: #0074c3\0; top: 4px; filter: Alpha(Opacity=20); }
+.product_box .p_a:hover { background: none; }
+.product_box .p_txt { margin-left:5px; font-size: 14px; color: #333; line-height: 28px; }
+.product_box .p_txt:hover { color: #0577c4; }
+.ico_new { position: relative; display: block; float: right; width: 42px; height: 42px; background: url(../../images/ico.png) no-repeat; }
+/*竞品分析*/
+.compete_list { margin-bottom: 30px; }
+.compete_list li { display: inline; float: left; margin: 0 24px 20px 0; }
+.compete_list li.end{ margin-right:0;}
+.compete_box { padding: 4px; width: 162px; height: 170px; background: #fff; border: solid 1px #ccc; border-radius: 3px; box-shadow: 0px 2px 2px #ccc; }
+.compete_box .pannel { height: 170px; background: #ededed; }
+.compete_box .pannel img { width: 162px; height: 170px; }
+.compete_list .compete_tlink { display: block; margin-top: 10px; color: #333; font-size: 14px; }
+.compete_list .compete_tlink:hover { color: #0577c4; text-decoration: none; }

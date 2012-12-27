@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 分页 */
+.pagebox{ float:right; display:inline;}
+.pagebox .page_btn{display:inline; float:left; padding:0 7px 0 7px;  height:20px; background:#fff; border:solid 1px #ccc; border-radius:3px; color:#333; line-height:20px;}
+.pagebox .page_btn:hover{ background:#ededed; text-decoration:none;}
+.pagebox .page_btn_none{ display:none; text-decoration:none;background:#fff; cursor:default;}
+.pagebox .page_btn_none:hover{ text-decoration:none;background:#fff; cursor:default;}
+.pagebox .list{position:relative;display:inline; float:left; margin:0 20px 0 20px; line-height:20px;}
+.pagebox .pages_link{  color:#0074c3; font-size:14px;letter-spacing:3px;}
+.pagebox .pages_layer{ position:absolute; width:76px; border:solid 1px #ccc; border-radius:3px; background:#fff; bottom:26px; left:-17px}
+.pagebox .pages_layer ul li{ height:26px; font-size:14px; color:#999; text-align:center; line-height:26px; letter-spacing:3px;}
+.pagebox .pages_layer ul li a{ color:#333;}

@@ -1,0 +1,21 @@
+{
+  "name": "js",
+  "version": "",
+  "dependencies": {},
+  "root": "/",
+  "output": {
+    "weiqushi/jobs/product.js":{"includes": "*","excludes": ["../plugin/jquery-ui-1.9.2.custom.min.js","../plugin/highcharts/highchart.js"]},
+    "weiqushi/jobs/compete.js":{"includes": "*","excludes": ["../plugin/jquery-ui-1.9.2.custom.min.js","../plugin/highcharts/highchart.js"]},
+    "lib/lib.js":".",
+    "weiqushi/ver.js":{"includes": "*"},
+    "lib/sea.js":".",
+    "lib/jquery/jquery-1.8.2.min.js":".",
+    "weiqushi/plugin/jquery-ui-1.9.2.custom.min.js":".",
+    "weiqushi/plugin/highcharts/highcharts.js":"."
+  },
+  "spmConfig": {
+    "build": {
+      "to": "js"
+    }
+  }
+}

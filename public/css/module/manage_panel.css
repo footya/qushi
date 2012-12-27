@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* 后台管理面板 */
+.manage_panel{
+	width:808px;
+	background:url(../../images/bg_panel_1col.jpg) repeat-y;
+	border:solid 1px #ccc;
+	border-radius:3px;
+	box-shadow:0 2px 2px #ccc;
+	font-size:14px;
+}
+.manage_panel .lf_panel{
+	position:relative;
+	display:inline;
+	float:left;
+	margin-bottom:50px;
+	width:198px;
+}
+.manage_panel .rt_panel{
+	display:inline;
+	float:right;
+	width:609px;
+}
+.manage_panel .bar_box{
+	padding:3px;
+	height:42px;
+	border-bottom:solid 1px #ccc;
+}
+.manage_panel .bar_box .bar_con{	
+	height:42px;
+	background:#e4ecf5;
+}
+.manage_panel .btn_add{
+	display:inline;
+	float:left;
+	margin:9px 0 0 13px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+.manage_panel .btn_add:hover, .manage_panel .btn_search:hover{ color:#2075AE; text-decoration:none;}
+.manage_panel .btn_add .ico_add{
+	vertical-align:-4px;
+}
+.manage_panel .btn_search{
+	display:inline;
+	float:left;
+	margin:9px 0 0 22px;
+	font-size:16px;
+	color:#333;
+	font-weight:bold;
+}
+.manage_panel .btn_search .ico_search{
+	vertical-align:-4px;
+}
+.manage_panel .bar_box .bar_con .btn_margin1{ margin:9px 0 0 17px;}
+.manage_panel .bar_box .bar_con .btn_margin2{ margin:9px 0 0 3px;}
+
+.manage_panel .bar_sort{
+	padding:3px;
+	height:24px;
+	border-bottom:solid 1px #ccc;
+}
+.manage_panel .bar_sort .bar_sort_con{
+	height:24px;
+	background:#ededed;
+	line-height:24px;
+	text-indent:16px;
+}
+.bar_sort_con .arrow_box{ display:inline-block; margin-left:3px;}
+.bar_sort_con .arrow_down{margin: -13px 0 0 -17px; color:#519bcc;}
+
+.manage_panel  .panel_mail li{ display:block; height:30px; color:#333; text-indent:19px;  border-bottom:solid 1px #ccc;line-height:30px; cursor:pointer;}
+.manage_panel  .panel_mail li:hover{ text-decoration:none; font-weight:bold; color:#fff; 
+	background:#549ecf; background: -webkit-linear-gradient( top, #549ecf 0%,  #4894c6 100% );
+	background: -moz-linear-gradient( top, #549ecf 0%,  #4894c6 100% );
+	background: -o-linear-gradient( top, #549ecf 0%,  #4894c6 100% );
+}
+.manage_panel  .panel_mail li:hover .btn_mail_close{ display:none;}
+.manage_panel  .panel_mail li:hover .btn_mail_close{ display:block; float:right; margin:8px 10px 0 0; width: 16px;height: 16px; background: url(../../images/btn.png) no-repeat -20px -40px; border-radius:3px; }
+.manage_panel  .panel_mail li:hover .btn_mail_close:hover{ background-position:-40px -40px; background-color:#ededed;}
+
+.manage_panel .ck_box{ margin-bottom:50px; padding:10px 40px 40px 40px; color:#333; }
+.manage_panel .ck_all_box{ margin-bottom:5px; text-align:right;}
+.manage_panel .ck_box .ck_input{ margin-right:5px; vertical-align:-1px;}
+.manage_panel .ck_box .ck_label{ color:#2075ae;}
+.manage_panel .ck_box .ck_sort{ margin-bottom:13px;font-size:16px; font-weight:bold;}
+
+.manage_panel .ck_box .ck_list{ width:450px;}
+.manage_panel .ck_box .ck_list li{ display:inline; float:left; margin-bottom:10px; width:145px;}
+
+.manage_panel .ck_box .dis_line_ck{ margin:15px 0 25px 0; height:1px; overflow:hidden; background:#ccc; clear:both;}
+
+.manage_panel .ck_box .ck_list2 li{ margin-bottom:10px;}
+
+.manage_panel  .panel_search li{ display:block; padding:4px 9px 4px 9px;height:22px; color:#333; text-indent:19px;  border-bottom:solid 1px #ccc;line-height:30px; cursor:pointer;}
+.manage_panel  .panel_search li a{ display:block; width:180px; height:22px; border-radius:3px; line-height:22px; color:#333; }
+.manage_panel  .panel_search li a:hover{ background:#ccc; text-decoration:none; }
+
+.manage_panel .ck_box .txt_info{ margin-top:17px; text-align:center; color:#666;}
+
+.manage_panel .bar_box .bar_con .rt_link{ display:inline; float:right; margin:12px 15px 0 0;}
+.manage_panel .bar_box .bar_con .rt_link a{ color:#2075ae;}
+.manage_panel .bar_box .bar_con .rt_link span{ margin:0 4px 0 3px; }
+
+.manage_panel .add_box{ padding:40px 0 40px 40px;  min-height:540px; color:#333;}
+.manage_panel .add_con{ display:inline; float:left;width:264px; min-height:450px;}
+.manage_panel .lf_add_con{ margin-right:40px;width:264px; border-right:solid 1px #ccc;}
+.manage_panel .add_input_box{ width:224px; height:24px; background:url(../../images/btn.png) no-repeat 0 -120px;}
+.manage_panel .add_input_box .add_input{ float:left; display:inline;padding-left:10px;width:145px; height:24px; line-height:16px; line-height:22px\0; *line-height:24px;_line-height:24px;outline:none; border:0; background:none; color:#666;} 
+
+.manage_panel .add_input_box .btn_close{ float:left; display:inline-block; margin:4px 0 0 13px; width:16px; height:16px; background-image:url(../../images/btn.png); background-position:0 -40px;border-radius:3px;}
+.manage_panel .add_input_box .btn_close:hover{ background-color:#666; background-position:-20px -40px;}
+.manage_panel .add_input_box .btn_add_input{ float:right; display:inline-block;  width:32px; height:24px; background-image:url(../../images/btn.png); background-position:-192px -120px;}
+.manage_panel .add_input_box .btn_add_input:hover{ background-position:-240px -120px;}
+
+.manage_panel .add_con .add_list{ margin-top:30px;}
+.manage_panel .add_con .add_list li{ display:inline-block; float:left; margin:0 41px 10px 0;width:90px; height:25px; line-height:25px; cursor:pointer;}
+.manage_panel .add_con .add_list li:hover .btn_close{ display:none;}
+.manage_panel .add_con .add_list li:hover .btn_close{ display:block; float:right; margin:4px 0 0 0; width: 16px;height: 16px; background: url(../../images/btn.png) no-repeat -40px -40px; border-radius:3px; }
+.manage_panel .add_con .add_list li:hover .btn_close:hover{ background-position:-20px -40px; background-color:#4e99ca;}
+
+.manage_panel .add_con .add_txt_info{ margin-top:30px; color:#666;}
+
+.manage_panel .choose_box{ padding-bottom:50px; overflow:hidden;  background:url(../../images/bg_panel_4col.jpg) repeat-y;}
+.manage_panel .choose_box .choose_con{ display:inline; float:left; padding:3px 4px 3px 3px; width:145px; }
+.manage_panel .choose_box .choose_con .tit_con{ padding-top:17px; height:33px; background:#e6e6e6; font-weight:bold; text-align:center;}
+.manage_panel .choose_box .choose_con .tit_con_none{ background:none;}
+.manage_panel .choose_box .choose_con .dis_line_chose{ margin-bottom:20px; height:1px; overflow:hidden; border-bottom:solid 1px #d9d9d9;}
+.manage_panel .choose_box .choose_con .select_box{ text-align:center;}
+.manage_panel .choose_box .choose_con .radio_box{}
+.manage_panel .choose_box .choose_con .radio_box .radio_list{ margin:25px 0 0 35px; line-height:28px;}
+.manage_panel .choose_box .choose_con .radio_box .radio_list li input{ margin-right:3px;}
+.manage_panel .choose_box .choose_con .radio_box .radio_list li.blank{ display:block; height:16px;}
+.manage_panel .choose_box .choose_con .tit_con .btn_add{ font-size:14px; margin:0 auto; float:none;}
+.manage_panel .choose_box .choose_con .tit_con .btn_add .ico_add{ vertical-align:-5px;} 

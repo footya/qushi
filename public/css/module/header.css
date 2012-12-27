@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* header */
+
+.header { background:url(../../images/bg_header.jpg) center 0 repeat-x #F2F2F2; }
+.header .headbox { margin: 0 auto; width: 980px; height: 85px; }
+.header .headbox h1 { width: 303px; height: 50px;  float: left; display: inline; margin: 12px 0 2px; background: url(../../images/logo.png) no-repeat; }
+.header .headbox h1 a{width: 130px; height: 50px;text-indent: -9999pt; display: block;}
+.header .nav { display: inline; float:right;  }
+.header .search { display:inline; float: left; margin: 32px 0 0 50px; width: 180px; height: 25px; background: url(../../images/btn.png) no-repeat; }
+.header .search .search_input { display:inline; float: left; width: 114px; height: 20px; height: 25px\0; outline: none; border: 0; background: none; line-height: 14px; line-height: 20px\0; *line-height: 20px;color: #999; margin: 3px 0 0 10px; }
+.header .search a.close { float: left; display: inline-block; margin-top: 4px; width: 16px; height: 16px; background-image: url(../../images/btn.png); background-position: 0 -40px; border-radius: 3px; }
+.header .search a.close:hover { background-color: #666; background-position: -20px -40px; }
+.header .search a.search_btn { float: right; display: inline-block; width: 34px; height: 24px; }
+.header a.name { float: right; display: inline; margin: 35px 0 0 40px; }
+.header a.login { float: right; display: inline; margin: 35px 0 0 50px; }

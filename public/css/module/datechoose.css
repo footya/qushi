@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* 日期选择 */
+.datechoose { font-weight:normal; }
+.datechoose .datebox { float:left;display:inline; width: 98px; height: 20px; background: #f2f2f2; border: solid 1px #ccc; border-radius: 3px; }
+.datechoose .datebox .date_input { float:left; display:inline; padding-left: 9px; width: 70px; height:20px; border: 0; background: none; color: #333; font-weight: bold; line-height: 20px; font-size:12px; outline:none; }
+.datechoose .datebox .date_link { display: inline-block; float: right; margin: 8px 6px 0 0; width: 11px; height: 17px; }
+.datechoose .btn_date{ display:inline-block; float:left; margin-left:5px; width:22px; height:22px; background:url(../../images/btn.png) no-repeat 0 -80px;}
+.datechoose .btn_date:hover{ background-position:-40px -80px;} 
+.datechoose span.txt{ display:inline; float:left;  margin:0 5px 0 5px; color:#666; line-height:22px; font-weight:bold; font-size:12px;}
+.datechoose .dis_line{ display:inline; float:left;  color:#999; margin:0 15px 0 17px; font-size:14px;}
+.datechoose .ico_dl{ float:left;}
+.datechoose .link_txt{ line-height:22px; margin-left:2px; font-size:14px;}

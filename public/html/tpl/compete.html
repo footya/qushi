@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" href="../../css/pages/frame.css" rel="stylesheet" />
+<link type="text/css" href="../../css/pages/product_chart.css" rel="stylesheet" />
+<link href="../../css/plugin/jquery-ui-1.9.1.custom.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../../js/lib/sea.js"></script>
+<title>竞品分析</title>
+</head>
+<body>
+<!--header-->
+<div class="header">
+  <div class="headbox">
+    <h1>微趋势</h1>
+    <div class="nav">
+      <ul class="mainNav">
+        <li><a class="current n_index" href="index.html"><i><b>首页</b></i></a></li>
+        <li><a class="n_wdl" href="wdl.html"><i><b>后台管理</b></i></a></li>
+      </ul>
+    </div>
+    <a href="#" class="login linkB">注销</a> <a href="#" class="name txtB">UDC微趋势</a>
+    <div class="search clearfix">
+      <input type="text" class="search_input" value="搜索" />
+      <a href="#" class="close"></a> <a href="#" class="search_btn"></a> </div>
+  </div>
+</div>
+<!--//header-->
+<!--主体部分-->
+<div class="top_bg"></div>
+<div class="wrp980">
+  
+  <h1 class="title_bar clearfix">
+    <div class="title_bar_sub"> <a href="#" class="tit_link linkD">首页</a><span class="dis">></span><span class="title_txt">竞品分析：微刊 | 美丽说 | 蘑菇街</span> </div>
+    <div class="datechoose datechoose_patch">
+      <form class="form-search" id="j-date-form" data-value="day">
+        <div class="datebox">
+          <input class="date_input" type="text" id="j-from-date-input"/>
+          <a class="date_link" href="#" id="j-from-date-button"> <span class="arrow_box"><em class="arrow_down">◆</em></span> </a> </div>
+        <span class="txt">到</span>
+        <div class="datebox">
+          <input class="date_input" type="text" id="j-to-date-input" />
+          <a class="date_link" href="#" id="j-to-date-button"> <span class="arrow_box"><em class="arrow_down">◆</em></span> </a> </div>
+        <a href="#" class="btn_date" id="j-date-submit-button"></a>
+      </form>
+      <span class="dis_line">|</span> <i class="ico_dl"></i> <a href="#" class="linkC link_txt">数据打包下载</a> </div>
+  </h1>
+  <div class="content product_con_patch">
+    <!--左导-->
+    <div class="leftnav sidebar-nav">
+      <ul>
+        <li class="topline"></li>
+        <li><a href="#j-kbbh">口碑变化</a><i class="arraw"></i></li>
+        <li><a href="#j-kbcb">口碑词表</a><i class="arraw"></i></li>
+        <li><a href="#j-yhxf">用户细分</a><i class="arraw"></i></li>
+        <!--    <li><a href="#j-yhxs">微博动态</a><i class="arraw"></i></li> -->
+        <li><a href="#j-yhsy">用户声音</a><i class="arraw"></i></li>
+        <li class="bottomline"></li>
+      </ul>
+    </div>
+    <!--//左导-->
+    <!--图表-->
+    <div class="chartbox chartbox_patch">
+      <div class="chart_con clearfix scroll_box" id="j-kbbh">
+        <div class="chart_tit clearfix">
+          <div class="lf_tit">口碑变化</div>
+          <div class="rt_btn"><i class="ico_dl2"></i><a href="#" class="linkA">下载数据</a></div>
+        </div>
+        <div class="chart_choose" id="i_linechart1_type" data-value="day"> 单位时间：<a href="#"  class="current" data-value="day">日</a><a href="#" data-value="month">月</a><a href="#" data-value="week">周</a>
+          <input type="checkbox" class="ckbox" id="i_linechart1_weight" value="0"/>
+          加权影响力 </div>
+        <div id="i_linechart1"></div>
+      </div>
+      <div class="dis_line"></div>
+      <div class="chart_con clearfix scroll_box" id="j-kbcb">
+        <div class="chart_tit clearfix">
+          <div class="lf_tit">口碑词表</div>
+          <div class="rt_btn"><i class="ico_dl2"></i><a href="#" class="linkA">下载数据</a></div>
+        </div>
+        <div class="chart_choose">
+          <input type="checkbox" class="ckbox" id="i_piechart_weight" value="0"/>
+          加权影响力 </div>
+        <div id="j_piechart_list"></div>
+      </div>
+      <div class="dis_line"></div>
+      <div class="chart_con clearfix scroll_box" id="j-yhxf">
+        <div class="chart_tit clearfix">
+          <div class="lf_tit">用户细分</div>
+          <div class="rt_btn"><i class="ico_dl2"></i><a href="#" class="linkA">下载数据</a></div>
+        </div>
+        <div class="chart_choose">
+          <input type="checkbox" class="ckbox" id="i_userchart_weight" value="0"/>
+          加权影响力 </div>
+        <div id="j_usertype_chartslist"></div>
+      </div>
+      <div class="dis_line"></div>
+      <div class="comment_box scroll_box" id="j-yhsy">
+        <div class="chart_tit clearfix">
+          <div class="lf_tit">用户心声</div>
+          <div class="rt_btn"><i class="ico_dl2"></i><a href="#" class="linkA">下载此处</a></div>
+        </div>
+        <div class="chart_choose"> <span id="j_usersound_type"> <a href="#" class="current" data-value="weibo">微博</a> <a href="#" data-value="suggest">建议</a> <a href="#" data-value="question">询问</a> </span> <span class="dis_line_choose">|</span> <span id="j_attitude_type"> <a href="#" class="current" data-value="all">全部</a> <a href="#" data-value="1">正面</a> <a href="#" data-value="-1">负面</a> <a href="#" data-value="0">中性</a> </span> <span class="dis_line_choose">|</span> <span id="j_pid_type"> </span> </div>
+        <div class="comment_con">
+          <ul class="com_list clearfix" id="j_usersound_box">
+          </ul>
+        </div>
+      </div>
+      <!--分页-->
+      <div class="pagebox pagebox_patch" id="j_usersound_pageer"> <a href="#" class="page_btn" name="pre" data-dis="act">上一页</a> <span class="list"> <a href="#" class="pages_link" name="num">第1页<em class="W_arrow"><em class="down">◆</em></em> </a>
+        <div class="pages_layer" name="player" style="display:none"> </div>
+        </span> <a href="#" class="page_btn" name="next" data-dis="dis">下一页</a> </div>
+      <!--//分页-->
+    </div>
+    <!--//图表-->
+  </div>
+</div>
+<!--//主体部分-->
+<!--footer-->
+<div class="footer">
+  <p class="txtB">Copyright © 2012 Weibo UDC. All rights reserved.</p>
+</div>
+<!--//footer-->
+<script type="text/javascript"> 
+    WB.ready(function(){ 
+        WB.load("compete");  
+    }); 
+</script>
+</body>
+</html>

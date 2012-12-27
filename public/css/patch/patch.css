@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* 补丁 */
+.datechoose_patch{ float:right; width: 400px;}
+.chartbox_patch{ float:right; margin:0 0 50px 0;}
+.pagebox_patch{ margin-right:40px;}
+.manage_panel{ float:right; margin:0 0 50px 0;}
+.product_con_patch{ margin-top:20px;}
+.manage_panel_patch{ margin-top:14px;}
+.gotop{display:block; width:12px; line-height: 14px; padding:5px; border:1px solid #ddd; visibility:hidden;}
+.gotop:link{color:#ddd;}
+.gotop:visited{color:#ddd;}
+.gotop:hover{text-decoration:none;color:#0074C3;border:1px solid #0074C3;}
+.scroll .gotop{position:fixed;bottom:10px;right:10px;visibility:visible;}

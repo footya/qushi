@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* 弹层 */
+.layer_confirm { padding: 2px; width: 376px; border: solid 2px #4e99ca; border-radius: 3px; background: #fff; color: #333; font-size: 16px; }
+.layer_confirm .layer_box { height: 112px; background: #f2f2f2; }
+.layer_common a.close { float: right; display: block; margin: 3px 3px 0 0; width: 16px; height: 16px; background-image: url(../../images/btn.png); background-position: 0 -40px; border-radius: 3px; }
+.layer_common a.close:hover { background-color: #666; background-position: -20px -40px; }
+.layer_confirm .layer_box p { display: inline; float: left; margin: 32px 0 0 47px; }
+.layer_confirm .layer_box .btn_box { display: inline; float: right; margin: 15px 15px 0 0; }
+.layer_confirm .layer_box .btn_box .btn_canel { margin-left: 10px; }
+.layer_import { padding: 2px; width: 376px; border: solid 2px #4e99ca; border-radius: 3px; background: #fff; color: #333; font-size: 16px; }
+.layer_import .layer_box { background: #f2f2f2; }
+.layer_import .layer_box .layer_tit { margin: 0px 0 10px 16px; padding-top: 7px; font-weight: bold; }
+.layer_import .layer_box .layer_tit a.close { margin-top: -4px; }
+.layer_import .dis_line_layer { height: 1px; overflow: hidden; background: #fff; border-top: solid 1px #d9d9d9; }
+.layer_import .tag_list_box { margin-top: -1px; }
+.layer_import .tag_list { margin-left: 15px; }
+.layer_import .tag_list li { display: inline-block; float: left; height: 34px; padding: 0 10px 0 10px; font-size: 12px; font-weight: bold; line-height: 34px; }
+.layer_import .tag_list li.current { border: solid 1px #999; border-bottom: none; border-top-left-radius: 3px; border-top-right-radius: 3px; color: #666; background: #fff; background: -webkit-linear-gradient( top, #efefef 0%, #fff 80% ); background: -moz-linear-gradient( top, #efefef 0%, #fff 80% ); background: -o-linear-gradient( top, #efefef 0%, #fff 80% ); }
+.layer_import .tag_list li a { color: #333; }
+.layer_import .tag_list li a:hover{ text-decoration:none;}
+.layer_import .tag_list_box .tag_con { padding-bottom:20px;  border-top: solid 1px #999; margin-top: -1px; background: #fff; }
+.layer_import .tag_list_box .tag_con .upload_box { display: inline; float: left; margin: 50px 0 50px 67px; width: 238px; height: 22px; border: solid 1px #666; border-radius: 3px; }
+.layer_import .tag_list_box .tag_con .upload_box .upload_input { display: inline; float: left; padding-left: 10px; width: 200px; height: 22px; border: none; outline: none; color: #333; line-height: 16px; line-height: 22px\0;_line-height: 22px; font-size: 14px; }
+.layer_import .layer_box .btn_box { display: inline; float: right; margin: 0 15px 0 0; }
+.layer_import .layer_box .btn_box .btn_canel { margin-left: 10px; }
+.layer_import .ck_list{ margin:30px 0 5px 65px; width:255px; min-height:70px;}
+.layer_import .ck_list li{ display:inline-block; float:left; margin-bottom:10px; width:83px; }
+.layer_import .ck_list li label{ margin-left:3px; font-size:14px; color:#333;}
+.layer_import .ck_list li input{ vertical-align:-1px;}

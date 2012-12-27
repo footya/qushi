@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* 标题栏 */
+.title_bar{ font-size:16px; font-weight:bold; color:#333;}
+.title_bar span.dis{ margin:0 10px 0 10px;}
+.title_bar .tit_link:hover{ color:#2075ae;}
+
+.title_bar .title_bar_sub{float:left;}
+.top_bg{ height:35px; background:url(../../images/bg_topfill.jpg) repeat-x;}
